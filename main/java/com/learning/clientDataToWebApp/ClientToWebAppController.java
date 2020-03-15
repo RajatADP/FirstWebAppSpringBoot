@@ -13,7 +13,6 @@ public class ClientToWebAppController {
 	public String clientToWebApp(HttpServletRequest req) {
 		HttpSession httpSession = req.getSession();
 		String clientName = req.getParameter("cname");
-		System.out.println("********************************" +clientName);
 		httpSession.setAttribute("clientName", clientName);
 		return "clientToWeb";
 	}
