@@ -15,3 +15,6 @@
 1. Creating WebApp
 <p>Create Controller class</p>
 <p>Create course.jsp under WebApp folder</p>
+
+2. Passing Client Data to Web Application
+
